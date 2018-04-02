@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/style-recherche.css">
+        <title>Colibris - Recherche</title>
+    </head>
+    <body>
+
+        <header>
+            <div id="logo">         
+                    <a href="#"><img src="../img/colibris.png" height="55px" alt="Logo Co:Libris"></a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li id="searchMenuList"><a id="searchMenuLink" href="#"><img id="searchMenuIcon" src="../img/whiteIcon/searchIcon.png" height="40px"></a></li>
+                        <li id="queriesMenuList"><a id="queriesMenuLink" href="#"><img id="queriesMenuIcon" src="../img/whiteIcon/queriesIcon.png" height="40px"></a></li>
+                        <li id="setMenuList"><a id="setMenuLink" href="#"><img id="setMenuIcon" src="../img/whiteIcon/setIcon.png" height="40px"></a></li>
+                        <li id="statMenuList"><a id="statMenuLink" href="#"><img id="statMenuIcon" src="../img/whiteIcon/statIcon.png" height="40px"></a></li>
+                        <li id="settingsMenuList"><a id="settingsMenuLink" href="#"><img id="settingsMenuIcon" src="../img/whiteIcon/settingsIcon.png" height="40px"></a></li>
+                        <li id="disconnectMenuList"><a id="disconnectMenuLink" href="#"><img id="disconnectMenuIcon" src="../img/whiteIcon/disconnectIcon.png" height="40px"></a></li>      
+                    </ul>
+                </nav>
+        </header>
+
+        <main class="wrap">
+
+            <!-- *************************************************** -->
+            <!-- Section haute pour la recherche, titre de page, etc -->
+            <!-- *************************************************** -->
+            <section class="zoneSearch">
+
+                <h1>Recherche</h1>
+
+                <div class="header-margin"></div>
+                    <div class="search-box">
+                        <div class="input-group search-bar">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Rechercher</button>
+                            </span>
+                        </div>
+                        <div class="advance-search">
+                            <div class="btn-group" role="group" aria-label="Disponibilité">
+                                <button type="button" class="btn btn-default">Sep</button>
+                                <button type="button" class="btn btn-default">Oct</button>
+                                <button type="button" class="btn btn-default">Nov</button>
+                                <button type="button" class="btn btn-default">Dec</button>
+                                <button type="button" class="btn btn-default">Jan</button>
+                                <button type="button" class="btn btn-default">Fev</button>
+                                <button type="button" class="btn btn-default">Mar</button>
+                                <button type="button" class="btn btn-default">Avr</button>
+                                <button type="button" class="btn btn-default">Mai</button>
+                                <button type="button" class="btn btn-default">Jui</button>
+                            </div>
+                            <form>
+                                <input class="number-form" type="number" name="points" step="1" placeholder="ex: 26">
+                            </form>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Editeur
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    Collection
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- ***************************************************************** -->
+            <!-- Section basse pour l'affichage des résultats, stats requêtes, etc -->
+            <!-- ***************************************************************** -->
+            <section class="zoneSearchResult">
+                
+                <div>
+                    <article class="ficheSerie">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                        <div class="article-left">
+                            <h2>Les Fourberies de Scapin</h2>
+                            <div>Moliere</div>
+                            <ul>
+                                <li>Poche :        144 pages</li>
+                                <li>Editeur :       Hachette Éducation (13 avril 2016)</li>
+                                <li>Collection :   Bibliocollège</li>
+                                <li>Langue :      Français</li>
+                            </ul>
+                        </div>
+                        <div class="article-right">
+                            <div>Collège Simin Palay</div>
+                            <div>Lescar</div>
+                            <div class="disponibilite">23 Exemplaire disponible</div>
+                        </div>
+                        <div class="article-complement">
+                            <div class="codes">
+                                <p>Code barre : 932490237289</p>
+                                <p>Code BCDI : 435942</p>
+                                <p>ISBN : 456392040</p>
+                                <p>ISNN : 932-30730769</p>
+                            </div>
+                            <div class="dates">
+                                <label for="date-debut">Date de début</label>
+                                <input type="date" name="date-debut" id="date-debut">
+                                <label for="date-fin">Date de fin</label>
+                                <input type="date" name="date-fin" id="date-fin">
+                            </div>
+                            <div class="commentaires">
+                                <label for="comment">Commentaire</label>
+                                <textarea rows="3" name="comment">Ecriver un commentaire (optionnel)</textarea>
+                                <input type="checkbox" name="accuser" id="accuser" class="confirm">
+                                <label for="accuser" class="confirm" id="confirm">Envoyer une confirmation de lecture</label>
+                                <button type="button" class="btn btn-default button-request">Envoyer la requète</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!--2 ème série ==============================================================-->
+                    <article class="ficheSerie">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51CIIf7R3lL._SX316_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                        <div class="article-left">
+                            <h2>Les Fourberies de Scapin</h2>
+                            <div>Moliere</div>
+                            <ul>
+                                <li>Poche :        93 pages</li>
+                                <li>Editeur : J'ai lu (29 Avril 2015)</li>
+                                <li>Collection :   Librio Théatre</li>
+                                <li>Langue :      Français</li>
+                            </ul>
+                        </div>
+                        <div class="article-right">
+                            <div>Collège Simin Palay</div>
+                            <div>Lescar</div>
+                            <div class="disponibilite">62 Exemplaire disponible</div>
+                        </div>
+                    </article>
+
+                    <!--3 ème série ==============================================================-->
+                    <article class="ficheSerie">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/518iIO1HxXL._SX347_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                        <div class="article-left">
+                            <h2>Les Fourberies de Scapin</h2>
+                            <div>Moliere</div>
+                            <ul>
+                                <li>Poche :        160 pages</li>
+                                <li>Editeur : Belin - Gallimard (15 mai 2013)</li>
+                                <li>Collection :   Classicocollège</li>
+                                <li>Langue :      Français</li>
+                            </ul>
+                        </div>
+                        <div class="article-right">
+                            <div>Collège Simin Palay</div>
+                            <div>Lescar</div>
+                            <div class="disponibilite">44 Exemplaire disponible</div>
+                        </div>
+                    </article>
+
+                    <!--4 ème série ==============================================================-->
+                    <article class="ficheSerie">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51CIIf7R3lL._SX316_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                        <div class="article-left">
+                            <h2>Les Fourberies de Scapin</h2>
+                            <div>Moliere</div>
+                            <ul>
+                                <li>Poche :        93 pages</li>
+                                <li>Editeur : J'ai lu (29 Avril 2015)</li>
+                                <li>Collection :   Librio Théatre</li>
+                                <li>Langue :      Français</li>
+                            </ul>
+                        </div>
+                        <div class="article-right">
+                            <div>Collège Simin Palay</div>
+                            <div>Lescar</div>
+                            <div class="disponibilite">62 Exemplaire disponible</div>
+                        </div>
+                    </article>
+
+                    <!--5 ème série ==============================================================-->
+                    <article class="ficheSerie">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/518iIO1HxXL._SX347_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                        <div class="article-left">
+                            <h2>Les Fourberies de Scapin</h2>
+                            <div>Moliere</div>
+                            <ul>
+                                <li>Poche :        160 pages</li>
+                                <li>Editeur : Belin - Gallimard (15 mai 2013)</li>
+                                <li>Collection :   Classicocollège</li>
+                                <li>Langue :      Français</li>
+                            </ul>
+                        </div>
+                        <div class="article-right">
+                            <div>Collège Simin Palay</div>
+                            <div>Lescar</div>
+                            <div class="disponibilite">44 Exemplaire disponible</div>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+            <footer>
+                <!-- Bouton retour haut de page? -->
+            </footer>
+
+        </main>
+
+        <script type="text/javascript" src="../script/script.js"></script>
+
+    </body>
+</html>
