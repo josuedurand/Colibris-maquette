@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style-josue.css">
+    <link rel="stylesheet" type="text/css" href="css/style-recherche.css">
+    <title>Colibris - Recherche</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid header-overlay">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse right-menu" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="#"><span class="glyphicon glyphicon-search"></span> Recherches <span class="sr-only">(current)</span></a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Requètes</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-book"></span> Gesions</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Statistiques</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Paramètres</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+    </header>
+
+    <div id="container">
+
+        <!-- Section haute pour la recherche, titre de page, etc -->
+        <section>
+            <!-- Ajouter à la section:
+                - class="zoneSearch" Recherche prof et docu.
+                - class="zoneStat" Configuration affichage stat, si besoin de faire le distingo ajouter Admin Prof ou Docu à la fin.
+
+                - class="zoneManagementUser" Configuration affichage comptes existant + création compte pour l'admin.
+
+                - class="zoneManagementSet" Configuration affichage séries existantes + création série pour la docu.
+                - class="zoneManagementRequest" Configuration affichage des requêtes pour la docu. -->
+
+            <h2><!-- Titre de la page --></h2>
+
+            <!-- Enjoy for the rest -->
+
+        </section>
+
+        <!-- Section basse pour l'affichage des résultats, stats requêtes, etc -->
+        <section>
+            <div class="header-margin"></div>
+            <div class="search-box">
+                <div class="input-group search-bar">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Rechercher</button>
+                    </span>
+                </div>
+                <div class="advance-search">
+                    <div class="btn-group" role="group" aria-label="Disponibilité">
+                        <button type="button" class="btn btn-default">Sep</button>
+                        <button type="button" class="btn btn-default">Oct</button>
+                        <button type="button" class="btn btn-default">Nov</button>
+                        <button type="button" class="btn btn-default">Dec</button>
+                        <button type="button" class="btn btn-default">Jan</button>
+                        <button type="button" class="btn btn-default">Fev</button>
+                        <button type="button" class="btn btn-default">Mar</button>
+                        <button type="button" class="btn btn-default">Avr</button>
+                        <button type="button" class="btn btn-default">Mai</button>
+                        <button type="button" class="btn btn-default">Jui</button>
+                    </div>
+                    <form>
+                        <input class="number-form" type="number" name="points" step="1" placeholder="ex: 26">
+                    </form>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Editeur
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Collection
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="zoneSearchResult">
+                <article>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/51JW7IBS-YL._SX345_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                    <div class="article-left">
+                        <h3>Les Fourberies de Scapin</h3>
+                        <div>Moliere</div>
+                        <ul>
+                            <li>Poche :        144 pages</li>
+                            <li>Editeur :       Hachette Éducation (13 avril 2016)</li>
+                            <li>Collection :   Bibliocollège</li>
+                            <li>Langue :      Français</li>
+                        </ul>
+                    </div>
+                    <div class="article-right">
+                        <div>Collège Simin Palay</div>
+                        <div>Lescar</div>
+                        <div class="disponibilite">23 Exemplaire disponible</div>
+                    </div>
+                    <div class="article-complement">
+                        <div class="codes">
+                            <p>Code barre : 932490237289</p>
+                            <p>Code BCDI : 435942</p>
+                            <p>ISBN : 456392040</p>
+                            <p>ISNN : 932-30730769</p>
+                        </div>
+                        <div class="dates">
+                            <label for="date-debut">Date de début</label>
+                            <input type="date" name="date-debut" id="date-debut">
+                            <label for="date-fin">Date de fin</label>
+                            <input type="date" name="date-fin" id="date-fin">
+                        </div>
+                        <div class="commentaires">
+                            <label for="comment">Commentaire</label>
+                            <textarea rows="3" name="comment">Ecriver un commentaire (optionnel)</textarea>
+                            <input type="checkbox" name="accuser" id="accuser" class="confirm">
+                            <label for="accuser" class="confirm" id="confirm">Envoyer une confirmation de lecture</label>
+                            <button type="button" class="btn btn-default button-request">Envoyer la requète</button>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/51CIIf7R3lL._SX316_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                    <div class="article-left">
+                        <h3>Les Fourberies de Scapin</h3>
+                        <div>Moliere</div>
+                        <ul>
+                            <li>Poche :        93 pages</li>
+                            <li>Editeur : J'ai lu (29 Avril 2015)</li>
+                            <li>Collection :   Librio Théatre</li>
+                            <li>Langue :      Français</li>
+                        </ul>
+                    </div>
+                    <div class="article-right">
+                        <div>Collège Simin Palay</div>
+                        <div>Lescar</div>
+                        <div class="disponibilite">62 Exemplaire disponible</div>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/518iIO1HxXL._SX347_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                    <div class="article-left">
+                        <h3>Les Fourberies de Scapin</h3>
+                        <div>Moliere</div>
+                        <ul>
+                            <li>Poche :        160 pages</li>
+                            <li>Editeur : Belin - Gallimard (15 mai 2013)</li>
+                            <li>Collection :   Classicocollège</li>
+                            <li>Langue :      Français</li>
+                        </ul>
+                    </div>
+                    <div class="article-right">
+                        <div>Collège Simin Palay</div>
+                        <div>Lescar</div>
+                        <div class="disponibilite">44 Exemplaire disponible</div>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/51CIIf7R3lL._SX316_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                    <div class="article-left">
+                        <h3>Les Fourberies de Scapin</h3>
+                        <div>Moliere</div>
+                        <ul>
+                            <li>Poche :        93 pages</li>
+                            <li>Editeur : J'ai lu (29 Avril 2015)</li>
+                            <li>Collection :   Librio Théatre</li>
+                            <li>Langue :      Français</li>
+                        </ul>
+                    </div>
+                    <div class="article-right">
+                        <div>Collège Simin Palay</div>
+                        <div>Lescar</div>
+                        <div class="disponibilite">62 Exemplaire disponible</div>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/518iIO1HxXL._SX347_BO1,204,203,200_.jpg" alt="Couverture du livre Scapin">
+                    <div class="article-left">
+                        <h3>Les Fourberies de Scapin</h3>
+                        <div>Moliere</div>
+                        <ul>
+                            <li>Poche :        160 pages</li>
+                            <li>Editeur : Belin - Gallimard (15 mai 2013)</li>
+                            <li>Collection :   Classicocollège</li>
+                            <li>Langue :      Français</li>
+                        </ul>
+                    </div>
+                    <div class="article-right">
+                        <div>Collège Simin Palay</div>
+                        <div>Lescar</div>
+                        <div class="disponibilite">44 Exemplaire disponible</div>
+                    </div>
+                </article>
+            </div>
+            <!-- Ajouter à la section:
+                - class="zoneSearchResult" Affichage résultat de recherche prof et docu.
+                - class="zoneStatView" Affichage stat, si besoin de faire le distingo ajouter Admin Prof ou Docu à la fin.
+
+                - class="zoneManagementUserView" Affichage comptes existant pour l'admin.
+                - class="zoneCreateUserView" Affichage création pour l'admin.
+
+                - class="zoneManagementSetView" Affichage séries existantes pour la docu.
+                - class="zoneCreateSetView" Affichage création série pour la docu.
+                - class="zoneManagementRequestView" Affichage des requêtes pour la docu. -->
+
+                <!-- A prioris pas pour les stats -->
+                <div>
+                    <!-- Ajouter à la div:
+                        - class="requestExt" Affichage d'une requête externe.
+                        - class="requestInt" Affichage d'une requête interne.
+                        - class="set" Affichage d'une série.
+
+                        - class="result" Affichage d'un résultat de recherche. -->
+                    <article>
+                        <!-- Affichage principal de l'info -->
+
+                        <h3><!-- Titre de la série, requête, etc --></h3>
+
+                        <!-- Enjoy for the rest -->
+
+                        <button >
+                            <!-- - class="buttonView" pour afficher le déroulé.
+                                - class="buttonDelete" pour supprimer le contenu.
+                                - class="buttonUpdate" pour modifier le contenu. -->
+                        </button>
+
+                    </article>
+
+                    <aside>
+                        <!-- Déroulé de l'article, affichage secondaire -->
+                        <!-- Enjoy -->
+
+                        <button>
+                            <!-- - class="buttonSaveUpdate" pour enregistrer la modif.
+                                - class="buttonSendRequest" pour envoyer la requête. -->
+                        </button>
+
+                    </aside>
+                </div>
+
+        </section>
+
+        <footer>
+            <!-- Bouton retour haut de page? -->
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="../script/script.js"></script>
+
+</body>
+</html>

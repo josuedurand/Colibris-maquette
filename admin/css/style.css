@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto:500,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F0F0F0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #3B3B3B;
+}
+
+.main{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1{    
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;    
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.divH1 {
+    margin-bottom: 50px;
+    text-align: center;    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.svg {
+    height: 2em;
+}
+.svg2{
+    height: 1.8em;
+}
+
+/* Menu */
+
+header {    
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #478EBF;
+}
+
+#lienLogo  {
+    display: flex;
+    margin-left: 60px;
+    text-decoration: none;
+    align-items: center;
+}
+
+#lienLogo img {    
+    height: 45px;
+}
+
+header div {
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+header div a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* section 1 choix type user  */
+
+.zoneManagementUserSection1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+/* section 2 choix type user  */
+
+.zoneManagementUserSection2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* div contener bouton choix type user */
+
+.zoneManagementUserChoixType {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 700px;
+}
+
+/* bouton choix accueil gestion user  */
+
+.zoneManagementUserBoutonChoix {
+    display: block;
+    background-color: white; 
+    text-decoration: none;
+    color: #3B3B3B;
+    padding: 10px;
+    width: 180px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.zoneManagementUserAddUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 50px;
+    background-color: white; 
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+#boutonAddUser {
+    display: block;
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+/* section 2 */ 
+
+/* div texte de base */
+
+.zoneManagementUserTexteBase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.zoneManagementUserTable {
+    width: 100%;    
+    text-align: center;
+    border-collapse: collapse;
+}
+.zoneManagementUserTable thead {
+    background-color: #56AAE5;
+}
+
+.zoneManagementUserTable thead td {
+    color: white;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 15px solid #F0F0F0;
+}
+
+.zoneManagementUserTable tbody td {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.borderAfterRow {
+    border-bottom: 5px solid #F0F0F0;
+}
+.borderAfterBigRow {
+    border-bottom: 15px solid #F0F0F0;
+}
+
+.angle-down {
+    height: 1em;
+}
+.angle-up {
+    height: 1em;
+}
+
+.lienBlock {
+    display: block;
+}
+
+.avec-border {
+    margin-bottom: 15px;
+}
+.sans-border {
+    margin-bottom: 0px;
+}
+
+.couleurBtn {
+    background-color: #56AAE5;
+    color: white;
+}
+
+/* intituler du tableau user */
+
+.intituleTableau {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #56AAE5;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* resultat du tableau user */
+
+.resultatTableau {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.resultatTableau:hover {
+    cursor: pointer;
+}
+
+.deroulerBoutonAction {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+}
+
+.boutonModifSupp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 200px;
+}
+
+.btn-updatedelete {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    min-width: 140px;
+    border: 1px solid #F0F0F0;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    color: #3B3B3B;
+    background-color: white;
+}
+
+/* texte p */
+
+.nomUser {
+    display: block;
+    width: 180px;
+}
+
+.prenomUser {
+    display: block;
+    width: 180px;
+}
+
+.emailUser {
+    display: block;
+    width: 350px;
+}
+
+.collegeUser {
+    display: block;
+    width: 300px;
+}
+
+.actionUser {
+    display: block;
+    width: 200px;
+}
+
+/* formulaire update */
+
+.divFormUpdate {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.divFormCreate {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.formUpdate {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+}
+
+.formCreate {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.divFormContenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divFormContenu2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.inputMaring {
+    margin-right: 50px;
+}
+
+.divFormBtn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-modifier {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    background-color: #56AAE5;
+    border: 1px solid #F0F0F0;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+.policeForm {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #3B3B3B;
+}
+
+.taille1Form {
+    width: 250px;  
+}
+
+.taille2Form {
+    width: 400px;  
+}
+
+.taille3form {
+    width: 404px;  
+}
+
+.taille4form {
+    width: 254px;  
+}
+
+/* pop-up  */
+
+.backgroundPop-up {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.85);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.pop-up {
+    position: relative;
+    background-color: #fff;
+    width: 850px;
+    padding: 40px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.boutonPop-up {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%; 
+    font-weight: normal;
+}
+.boutonConfirmerAnnuler {
+    display: block;
+    background-color: white; 
+    border: 2px solid #F0F0F0;
+    text-decoration: none;
+    color: #3B3B3B;
+    padding: 10px;
+    width: 180px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.backBlue {
+    background-color:#56AAE5;
+    color: white;
+}
+
+
+footer {
+    height: 50px;
+    margin-top: 25px;
+}
+
+@media all and (max-width: 1280px) {
+    .boutonModifSupp {
+        width: 160px;
+    }
+}

@@ -1,2 +1,3 @@
 # Colibris
-Amélioration du système de prêt de séries de livres entre collèges afin de permettre une meilleur visibilité
+
+Amélioration du système de prêt de séries de livres entre collèges pour permettre une meilleur visibilité
