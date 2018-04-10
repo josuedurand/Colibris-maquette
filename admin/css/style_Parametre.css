@@ -1,0 +1,33 @@
+#baseParametre {
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.formUpdateParametre {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.divFormParametre {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divFormBtnParametre {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
