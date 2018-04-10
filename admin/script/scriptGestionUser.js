@@ -384,7 +384,7 @@ function newFicheDocumentaliste(id, nom, prenom, email, college, codeEtab, tel, 
         divContenu2.appendChild(selectCollege);
         var option1 = document.createElement("option");
         selectCollege.appendChild(option1);
-        var textOption1 = document.createTextNode("--- Choisissez un collège ---")
+        var textOption1 = document.createTextNode("- Choisissez un collège -")
         option1.appendChild(textOption1);
         var option2 = document.createElement("option");
         selectCollege.appendChild(option2);
@@ -944,7 +944,7 @@ function newFicheEnseignant(id, nom, prenom, email, college, tel, identifiant) {
         divContenu2.appendChild(selectMatiere);
         var option1 = document.createElement("option");
         selectMatiere.appendChild(option1);
-        var textOption1 = document.createTextNode("--- Choisissez une matière ---")
+        var textOption1 = document.createTextNode("- Choisissez une matière -")
         option1.appendChild(textOption1);
         var option2 = document.createElement("option");
         selectMatiere.appendChild(option2);
@@ -977,7 +977,7 @@ function newFicheEnseignant(id, nom, prenom, email, college, tel, identifiant) {
         divContenu2.appendChild(selectCollege);
         var option1 = document.createElement("option");
         selectCollege.appendChild(option1);
-        var textOption1 = document.createTextNode("--- Choisissez un collège ---")
+        var textOption1 = document.createTextNode("- Choisissez un collège -")
         option1.appendChild(textOption1);
         var option2 = document.createElement("option");
         selectCollege.appendChild(option2);

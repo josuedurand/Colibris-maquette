@@ -27,6 +27,7 @@ body{
     margin: auto;
 }
 header {
+    height: 75px;
     background-color: #478EBF;
 }
 main{
