@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto:500,700');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #F0F0F0;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	color: #3B3B3B;
+}
+
+main{
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+header{
+	height: 75px;
+	background-color: #478EBF;
+	margin-bottom: 50px;
+}
+
+#form #form1 #form2 { 
+	background-color: lightgrey; 
+} 
+					 
+#bouton { 
+	background-color: grey; 
+	width: 100%; 
+	height: 75px; 				 
+	display: block; 
+	margin	: 5px; 
+	display: flex;
+	justify-content: space-between;
+} 
+
+.img{
+	height: 45px; 
+	width: 45px;
+	background-color: black;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+form{
+margin-left: 20px;
+
+}
+
+.formRight{
+	float: right;
+	margin-top: -110px;
+	margin-right: 100px;
+}
+
+.formRight2{
+	float: right;
+	margin-top: -110px;
+	margin-right: 600px;
+
+}
+
+.envoie{
+	float: right;
+ }
+
+ 
