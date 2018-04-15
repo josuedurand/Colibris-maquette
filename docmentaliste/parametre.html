@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Copie avec header adapté de admin/admin_parametre.html
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../admin/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../admin/css/style_Parametre.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="#" id="lienLogo"><img src="./img/colibris.png"></a> <!-- logo -->
+            <div>
+                <a href="recherche.html" title="Rechercher"><img class="svg2" src="./img/icon/search.svg"></a>
+                <a href="gestRequDocu.html" title="Gestion des Requètes"><img class="svg2" src="./img/icon/comments.svg"></a>
+                <a href="tabBordDocu.html" title="Gestion des Séries"><img class="svg2" src="./img/icon/book.svg"></a>
+                <a href="parametre.html" title="Paramètres"><img class="svg2" src="./img/icon/cog.svg"></a>
+                <a href="#" title="Déconnexion"><img class="svg2" src="./img/icon/sign-out-alt.svg"></a>
+            </div>
+        </header>
+
+        <div class="main">
+            <section class="zoneManagementUserSection1">
+                <div class="divH1">
+                    <h1>Paramètres</h1> 
+                </div>                
+            </section>     
+            <section id='baseParametre'>                
+                <div>
+                    <form class="formUpdateParametre">
+                        <h3>Information de contact :</h3>
+                        <div class="divFormParametre">
+                            <input class="policeForm taille2Form inputMaring" type="email" name="emailUser" placeholder="Email de contact">
+                            <input class="policeForm taille1Form" type="tel" name="telUser" placeholder="Telephone de contact">
+                        </div>
+
+                        <h3>Information de connexion :</h3>
+                        <div class="divFormParametre">
+                            <input class="policeForm taille1Form inputMaring" type="password" name="motDePasse" placeholder="Mot de passe">
+                            <input class="policeForm taille1Form" type="password" name="verifMotDePasse" placeholder="Confirmation mot de passe">
+                        </div>
+                        <div class="divFormBtnParametre">
+                            <button class="btn-modifier" type="submit" name="modifier" value="modifier">Enregistrer</button>
+                        </div> 
+
+                    </form>           
+                </div>
+            </section>
+            <footer>                
+            </footer>
+        </div>       
+    </body>
+</html>
